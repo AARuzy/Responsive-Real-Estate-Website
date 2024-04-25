@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Services</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/services.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	 <div class="container-fluid">
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><em><strong>ANGELS REALTY</strong></em></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+<ul class="navbar-nav mr-auto">
+          <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"> <a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+	<br>
+    <div class="container">
+    <h1><strong><em>Angels Realty Services</em></strong></h1>
+		<h4><em>Complete Service Form down below and we will get in contact with you!</em></h4>
+    <div class="form-container">
+        <form id="serviceSelectionForm">
+            <label for="service">Choose a Service:</label>
+            <select id="service" name="service">
+                <option value="buy">Buy a Home</option>
+                <option value="sell">Sell a Home</option>
+                <option value="rent">Rent a Home</option>
+            </select>
+            <input type="submit" value="Next">
+        </form>
+    </div>
+
+    <div class="form-container" id="dynamicFormContainer" style="display: none;">
+        <h2 id="dynamicFormTitle"></h2>
+        <form id="dynamicForm">
+            <!-- Dynamic form fields will be added here based on user selection -->
+        </form>
+        <input type="button" value="Submit" id="submitButton" style="display: none;">
+        <p id="thankYouMessage" style="display: none;">Thank you for your submission!</p>
+    </div>
+</div>
+	  <div class="row">
+      <div class="col-xl-4">
+        <div class="card col-md-4 col-xl-12"> <img class="card-img-top img-thumbnail img-fluid" src="images/8.jpg.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center"><em><strong>ABOUT US&nbsp;</strong></em></h5>
+            <p class="card-text">Welcome to Angels Realty, your trusted partner in real estate. With a passion for property and a commitment to excellence, we match you with your perfect home. Our experienced team provides personalized service tailored to your needs.</p>
+            <a href="about.html" class="btn btn-primary">READ MORE</a></div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card col-md-4 col-xl-12"> <img class="card-img-top img-thumbnail img-fluid" src="images/9.jpg.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center"><em><strong>OUR SERVICES</strong></em></h5>
+            <p class="card-text">At Angels Realty, we offer comprehensive services for buying, selling, and renting. Whether you're searching for your dream home, selling your property, or looking for the perfect rental, our expert team is here for you. Trust us for exceptional service.</p>
+            <a href="services.html" class="btn btn-primary">READ MORE</a></div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card col-md-4 col-xl-12"> <img class="card-img-top img-thumbnail img-fluid" src="images/7.jpg.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center"><em><strong>CONTACT US</strong></em></h5>
+            <p class="card-text">Ready to take the next step in your real estate journey? Reach out to us today. Our friendly team at Angel's Realty is here to assist you with all your inquiries. Contact us via phone, email, or visit our office,we're always here to help.</p>
+            <a href="contact.html" class="btn btn-primary">READ MORE</a></div>
+        </div>
+      </div>	
+    </div>
+  <div id="accordion1" role="tablist">
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingOne1">
+	      <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> Who Are We</a></h5>
+        </div>
+	    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+	      <div class="card-body">Angels Realty, your premier real estate destination, is dedicated to making your property journey heavenly. With a team passionate about matching dreams with homes, we offer personalized service tailored to your needs. Whether you're buying, selling, or renting, count on Angels Realty for a seamless and satisfying experience.</div>
+        </div>
+    </div>
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingTwo1">
+	      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1">Why Us</a></h5>
+        </div>
+	    <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+	      <div class="card-body">Choose Angels Realty for a divine real estate experience. Our dedicated team combines expertise with personalized service, ensuring your property journey is smooth and successful. With a commitment to excellence and a passion for finding the perfect match, Angels Realty is your trusted partner in achieving your real estate goals.</div>
+        </div>
+    </div>
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingThree1">
+	      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> Get In Touch</a> </h5>
+        </div>
+	    <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+	      <div class="card-body">Ready to make your real estate dreams a reality? Contact Angels Realty today and let us guide you on your journey. Whether you're buying, selling, or renting, our friendly team is here to assist you every step of the way. Reach out via phone, email, or visit our office – we're eager to hear from you.</div>
+        </div>
+    </div>  
+  </div>
+<br>
+  <footer>
+  <div class="row">
+		  <div class="col-xl-4"><em><strong>ANGELS REALTY</strong></em></div>
+		  <div class="col-xl-4">Copyright © 2024 All Rights Reserved</div>
+	  </div>
+	  <br>
+	  <br>
+	</footer>
+</div>
+	</div>
+<script>
+    document.getElementById("serviceSelectionForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent form submission
+        var selectedService = document.getElementById("service").value;
+        var formTitle = "";
+
+        // Set form title and dynamically change form fields based on selected service
+        switch (selectedService) {
+            case "buy":
+                formTitle = "Buy a Home";
+                createBuyForm();
+                break;
+            case "sell":
+                formTitle = "Sell a Home";
+                createSellForm();
+                break;
+            case "rent":
+                formTitle = "Rent a Home";
+                createRentForm();
+                break;
+            default:
+                break;
+        }
+
+        // Display the dynamic form and submit button
+        document.getElementById("dynamicFormContainer").style.display = "block";
+        document.getElementById("dynamicFormTitle").innerText = formTitle;
+        document.getElementById("submitButton").style.display = "block";
+    });
+
+    document.getElementById("submitButton").addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent default button behavior
+        document.getElementById("dynamicFormContainer").style.display = "none"; // Hide the form
+        document.getElementById("thankYouMessage").style.display = "block"; // Display thank you message
+    });
+
+    function createBuyForm() {
+        var dynamicForm = document.getElementById("dynamicForm");
+        dynamicForm.innerHTML = `
+            <label for="buy_name">Your Name:</label>
+            <input type="text" id="buy_name" name="buy_name" required>
+
+            <label for="buy_email">Your Email:</label>
+            <input type="email" id="buy_email" name="buy_email" required>
+
+            <label for="buy_phone">Your Phone:</label>
+            <input type="text" id="buy_phone" name="buy_phone" required>
+
+            <label for="buy_address">Address:</label>
+            <input type="text" id="buy_address" name="buy_address" required>
+
+            <label for="buy_contact">Preferred Contact Method:</label>
+            <select id="buy_contact" name="buy_contact">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="both">Both</option>
+            </select>`;
+    }
+
+    function createSellForm() {
+        var dynamicForm = document.getElementById("dynamicForm");
+        dynamicForm.innerHTML = `
+            <label for="sell_name">Your Name:</label>
+            <input type="text" id="sell_name" name="sell_name" required>
+
+            <label for="sell_email">Your Email:</label>
+            <input type="email" id="sell_email" name="sell_email" required>
+
+            <label for="sell_phone">Your Phone:</label>
+            <input type="text" id="sell_phone" name="sell_phone" required>
+
+            <label for="sell_address">Address:</label>
+            <input type="text" id="sell_address" name="sell_address" required>
+
+            <label for="sell_beds">Number of Bedrooms:</label>
+            <input type="number" id="sell_beds" name="sell_beds" required>
+
+            <label for="sell_baths">Number of Bathrooms:</label>
+            <input type="number" id="sell_baths" name="sell_baths" required>
+
+            <label for="sell_sqft">Square Feet:</label>
+            <input type="number" id="sell_sqft" name="sell_sqft" required>
+
+            <label for="sell_zipcode">Zipcode:</label>
+            <input type="text" id="sell_zipcode" name="sell_zipcode" required>
+
+            <label for="sell_contact">Preferred Contact Method:</label>
+            <select id="sell_contact" name="sell_contact">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="both">Both</option>
+            </select>`;
+    }
+
+    function createRentForm() {
+        var dynamicForm = document.getElementById("dynamicForm");
+        dynamicForm.innerHTML = `
+            <label for="rent_name">Your Name:</label>
+            <input type="text" id="rent_name" name="rent_name" required>
+
+            <label for="rent_email">Your Email:</label>
+            <input type="email" id="rent_email" name="rent_email" required>
+
+            <label for="rent_phone">Your Phone:</label>
+            <input type="text" id="rent_phone" name="rent_phone" required>
+
+            <label for="rent_address">Address:</label>
+            <input type="text" id="rent_address" name="rent_address" required>
+
+            <label for="rent_contact">Preferred Contact Method:</label>
+            <select id="rent_contact" name="rent_contact">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="both">Both</option>
+            </select>`;
+    }
+</script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+<scrpt src="js/bootstrap-4.4.1.js"></scrpt>
+  </body> 
+</html>

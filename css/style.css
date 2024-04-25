@@ -1,0 +1,65 @@
+@charset "utf-8";
+.container-fluid {
+    background-color: #FFF2E1;
+}
+.container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #607274;
+    -webkit-box-shadow: 0px 0px #607274;
+    box-shadow: 0px 0px #607274;
+}
+.navbar-nav.mr-auto .nav-item .nav-link {
+    color: #607274;
+}
+.card.col-md-4.col-xl-12 .card-body .btn.btn-primary {
+    background-color: #607274;
+}
+#accordion1 .card #headingOne1 {
+    background-color: #607274;
+}
+#headingOne1 .mb-0 a {
+    color: #FFFFFF;
+}
+#headingTwo1 .mb-0 .collapsed {
+    color: #FFFFFF;
+}
+
+
+
+#accordion1 .card #headingTwo1 {
+    background-color: #607274;
+    color: #FFFFFF;
+}
+#headingThree1 .mb-0 .collapsed {
+    color: #FFFFFF;
+}
+.container-fluid .container footer {
+    color: #607274;
+}
+
+
+#accordion1 .card #headingThree1 {
+    background-color: #607274;
+    color: #FFFFFF;
+}
+.container .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+    color: #000000;
+    font-family: Banery;
+    font-weight: bold;
+    text-decoration: overline;
+}
+footer .row .col-xl-4 {
+    font-family: Banery;
+    font-style: italic;
+    font-weight: bold;
+}
+.col-xl-4 em strong {
+    text-decoration: none;
+    font-family: Banery;
+}
+body p {
+    font-family: Banery;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
